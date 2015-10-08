@@ -1,0 +1,135 @@
+/* #spare_time div p { color: purple; }
+#dance { color: black; }
+p { color: red !important;}
+.hobby { color: yellow; }
+.interest { color: blue; }
+#spare_time {display: none;}*/
+
+body {
+	background: #000;
+}
+.reveal p,
+.reveal div,
+.reveal h2,
+.reveal h3,
+.reveal section {
+	font-family: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.reveal h2{
+	padding: 0.5em 0;
+}
+
+.reveal h2.borders-pink{
+	border-bottom: 3px solid #f04e98;
+	border-top: 3px solid #f04e98;
+
+}
+
+.reveal h2.borders-fuscia{
+	border-bottom: 3px solid #9C2950;
+	border-top: 3px solid #9C2950;
+
+}
+
+.reveal h2.borders-teal{
+	border-bottom: 3px solid #46b5bd;
+	border-top: 3px solid #46b5bd;
+
+}
+
+.reveal h2.borders-orange{
+	border-bottom: 3px solid #e6874c;
+	border-top: 3px solid #e6874c;
+
+}
+
+.reveal h2.borders-green{
+	border-bottom: 3px solid #24935a;
+	border-top: 3px solid #24935a;
+
+}
+
+.reveal h2.borders-red{
+	border-bottom: 3px solid #d6383d;
+	border-top: 3px solid #d6383d;
+
+}
+
+.reveal h3 {
+	padding: 0.5em 0;
+}
+
+.reveal h3.borders-pink{
+	border-bottom: 3px solid #f04e98;
+
+}
+
+.reveal h3.borders-fuscia{
+	border-bottom: 3px solid #9C2950;
+
+}
+
+.reveal h3.borders-teal{
+	border-bottom: 3px solid #46b5bd;
+
+}
+
+.reveal h3.borders-orange{
+	border-bottom: 3px solid #e6874c;
+
+}
+
+.reveal h3.borders-green{
+	border-bottom: 3px solid #24935a;
+
+}
+
+.reveal h3.borders-red{
+	border-bottom: 3px solid #d6383d;
+
+}
+
+.three-technical {
+	list-style: none;
+}
+.each-day {
+	text-align: left;
+	padding-top: 30px !important;
+}
+.each-day span {
+	vertical-align: top;
+	margin-right: 30px;
+}
+.three-technical li {
+	list-style: none;
+	background-color: #f6eb61;
+	padding: 40px;
+	margin: 10px;
+	color: #333;
+}
+.my-div{
+  width:100px;
+  height:100px;
+  background:#f04e98;
+  transition:width 2s;
+  margin-left: 50px !important;
+}
+
+.my-div:hover { width:300px; }
+
+.font-pink {
+	color: #f04e98;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.what-is-html {
+	text-align: left;
+}
+.what-is-html strong {
+	color: #f04e98;
+}

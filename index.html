@@ -1,1 +1,161 @@
-My Page
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TWU 2015</title>
+  <link rel="stylesheet" href="css/reveal.min.css"/>
+  <link rel="stylesheet" href="css/theme/default.css" id="theme"/>
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<div class="reveal">
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+
+    <section>
+      <p><strong>Thought</strong>Works<sup style="font-size: 14px">&reg;</sup></p>
+      <h2 class="borders-pink">Our TWU experience</h2>
+      <small>Presented by</small>
+      <p>Amy, Catherine and Robert</p>
+    </section>
+
+    <section>
+      <section>
+        <h3 class="borders-fuscia">The Structure of TWU</h3>
+        <p>Sessions - Case study - Project - Pecha Kucha</p>
+      </section>
+
+
+      <section>
+        <h3 class="borders-fuscia">Sessions</h3>
+        <div style="display: Inline-block; padding: 10px">
+          <ul>
+            <li>Intro to feedback</li>
+            <li>The three pillars</li>
+            <li>Agile team roles</li>
+            <li>User Stories</li>
+            <li>QA in context</li>
+            <li>Experience Design</li>
+            <li>Sales and marketing</li>
+            <li>Intro to estimation</li>
+            <li>How to release software</li>
+          </ul>
+        </div>
+        <div style="display: Inline-block; vertical-align: top">
+          <ul>
+            <li>Intro to TW values</li>
+            <li>Path to Production</li>
+            <li>Types of testing</li>
+            <li>Finance</li>
+            <li>Meetings and facilitation</li>
+            <li>Consulting in context</li>
+            <li>Recruiting</li>
+            <li>CFRs</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <section>
+        <h3 class="borders-fuscia">Case Study</h3>
+
+      </section>
+
+      <section>
+        <h3 class="borders-fuscia">Project - Freewheelers</h3>
+        <h4>6 project teams</h4>
+        <h4>10-14 team members</h4>
+        <h4>Mostly devs, but also QA/BA/XD</h4>
+        </hr>
+
+        <p style="font-style: italic">Demonstration</p>
+
+      </section>
+
+      <section>
+        <h3 class="borders-fuscia">Pecha Kucha Nights</h3>
+        <img style="width: 600px" src="images/pk.png" alt="tag">
+
+      </section>
+    </section>
+
+    <section>
+      <section>
+        <h3 class="borders-orange">Activities</h3>
+        <p>NGO visit - Free Weekend - India Away Day- T-shirts</p>
+      </section>
+
+      <section>
+        <h3 class="borders-orange">NGO visit - Hope & Maher</h3>
+      </section>
+
+      <section>
+        <h3 class="borders-orange">Free Weekend</h3>
+      </section>
+
+      <section>
+        <h3 class="borders-orange">India Away Day</h3>
+        <img src="images/india_away_day.JPG" alt="tag">
+      </section>
+
+      <section>
+        <h3 class="borders-orange">T-shirts</h3>
+        <iframe src="https://player.vimeo.com/video/140150251"
+          width="1000" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+      </section>
+
+      <section>
+        <h3 class="borders-orange">Graduation Ceremony</h3>
+        <img src="images/india_away_day.JPG" alt="tag">
+      </section>
+    </section>
+
+    <section>
+      <h3 class="borders-green">Our takeaways</h3>
+    </section>
+
+    <section>
+      <h3 class="borders-pink">The end</h3>
+      <div>Q & A</div>
+    </section>
+
+  </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    center: true,
+    history: true,
+    // maxScale: 4,
+
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Parallax scrolling
+    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    // parallaxBackgroundSize: '2100px 900px',
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+    //  { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    //  { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    ]
+  });
+</script>
+</body>
+</html>
